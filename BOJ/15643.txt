@@ -1,0 +1,6 @@
+// Yee
+// https://www.acmicpc.net/problem/15643
+
+86642467
+
+// 영상 속에 답이 있다(정말로)

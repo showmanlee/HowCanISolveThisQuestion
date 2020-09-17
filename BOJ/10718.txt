@@ -1,0 +1,7 @@
+// We love kriii
+// https://www.acmicpc.net/problem/10718
+
+강한친구 대한육군
+강한친구 대한육군
+
+// 대충 친구 군대 보내주는 출력 문제
