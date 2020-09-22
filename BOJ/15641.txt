@@ -1,0 +1,7 @@
+// SUPER SUPER BINARY SEARCH DELUXE 2.5: THE LEGEND OF THE GOLDEN MAZASSUMNIDA, EPISODE 2: THE MAZWAETL UNIVERSE, PART 2: THE PARALLEL UNIVERSE AND THE LOST MAZASSUMNIDA: GAME OF THE YEAR EDITION
+// https://www.acmicpc.net/problem/15641
+
+90
+
+// 극단적 스릴감의 채점 프로그램과의 업앤다운 대결
+// 누군가가 맞을 때마다 숫자가 달라지기 때문에 다른 사람이 먼저 맞추기 전에 맞춰야 한다
