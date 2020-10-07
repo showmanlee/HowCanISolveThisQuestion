@@ -7,3 +7,5 @@ int simpleArraySum(vector<int> ar) {
         sum += ar[i];
     return sum;
 }
+
+// 배열 내 원소의 합

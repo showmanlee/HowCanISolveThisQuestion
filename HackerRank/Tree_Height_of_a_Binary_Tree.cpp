@@ -7,3 +7,5 @@ int height(Node* root) {
     int l = height(root->left) + 1, r = height(root->right) + 1;
     return max(l, r);
 }
+
+// 이진 트리의 높이

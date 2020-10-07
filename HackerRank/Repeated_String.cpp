@@ -13,3 +13,5 @@ long repeatedString(string s, long n) {
             answer++;
     return answer;
 }
+
+// 주어진 문자열은 n글자만큼 반복했을 때, a는 얼마나 많이 나오는가?
