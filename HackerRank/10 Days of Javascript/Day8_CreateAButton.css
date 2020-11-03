@@ -1,0 +1,11 @@
+/* Day 8: Create a Button
+   https://www.hackerrank.com/challenges/js10-create-a-button/problem */
+#btn {
+    width: 96px;
+    height: 48px;
+    font-size: 24px;
+}
+
+/* CSS는 HTML에서 스타일만을 떼서 적용하는 언어
+   stylesheet를 css 파일에 링크한 뒤 이렇게 적용하면 버튼에 적용되더라
+   더 배워야 함 */

@@ -1,0 +1,16 @@
+/*
+    Day 8: Buttons Container
+    https://www.hackerrank.com/challenges/js10-buttons-container/problem
+*/
+
+.buttonContainer {
+                width: 75%;
+            }
+            
+            .buttonContainer > .buttonClass {
+                    width: 30%;
+                    height: 48px;
+                    font-size: 24px;
+            }
+
+/* 나중에 CSS 학습으로 다시 찾아 뵙겠습니다 */
