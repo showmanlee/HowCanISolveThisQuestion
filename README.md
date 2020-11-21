@@ -29,3 +29,10 @@
 ### 계정
 BOJ: [hoon12560](https://www.acmicpc.net/user/hoon12560)      
 HackerRank: [hoon12560](https://www.hackerrank.com/hoon12560) 
+
+
+### 자매 Repo
+
+[EverydayILearnSomething](https://github.com/showmanlee/EverydayILearnSomething) - 서적 및 인터넷에서 습득한 각종 개발 지식들을 정리하는 이론 TIL Repo입니다. 알고리즘 관련 내용들도 정리할 예정으로, 알고리즘의 이론적인 부분은 저기, 코드적인 부분은 여기서 보실 수 있을 거예요.
+
+그 외에도 (TIL이 아니더라도) 학습 목적의 Repo를 만들면 여기에 링크됩니다.
