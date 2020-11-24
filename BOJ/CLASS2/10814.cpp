@@ -41,3 +41,4 @@ int main(void) {
 }
 
 // 커스텀 소팅 함수
+// +) 또는 stable_sort를 사용해도 됐었음
