@@ -1,0 +1,12 @@
+//
+// https://www.acmicpc.net/problem/12096
+
+02-521-0487
+
+// 백준의 광기를 상징하는 문제 중 하나
+
+// 1. 문제 페이지의 소스로 들어간다
+// 2. 힌트 아래 주석처리되어 있는 문자열(7Z6M7Yq464qUIGh0dHBzOi8vc3RhcnRsaW5rLmlvLyDsl5Ag7J6I64qUIOOFiOOFjuOFguOFjg==)을 복사한다
+// 3. base64로 인코딩된 해당 문자열을 디코딩한다
+// 4. 그럼 '힌트는 https://startlink.io/ 에 있는 ㅈㅎㅂㅎ'라는 원래 문자열이 나오는데, 해당 링크로 들어가 ㅈㅎㅂㅎ -> 전화번호를 찾는다
+// 5. 페이지 하단에 있는 전화번호를 하이픈까지 포함하여 제출한다!
