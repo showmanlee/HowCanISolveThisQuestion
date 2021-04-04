@@ -10,7 +10,7 @@
 실제 사이트에서 통과한(100점을 받은) 코드만 올리고 있습니다. **코드들에는 문제의 답(최적해는 아니더라도)이 있기 때문에 이 점 유념해주세요.**
 
 ### 범례
-[BOJ](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/BOJ)는 드립성 및 txt로 풀 수 있는 문제(단순 출력 등) 포함, BOJ에서 푼 문제들을 저장합니다. [solved.ac](https://solved.ac/)의 [CLASS](https://solved.ac/class)에 포함되는 문제라면 `CLASS_`(_는 숫자) 폴더에 들어가고, 그렇지 않은 문제는 바깥에 나와있습니다. 대부분의 BOJ 문제는 입출력부까지 모두 구현해야 합니다.    
+[BOJ](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/BOJ)는 드립성 및 txt로 풀 수 있는 문제(단순 출력 등) 포함, BOJ에서 푼 문제들을 저장합니다.    
 파일명의 번호는 문제 번호(`https://www.acmicpc.net/problem/XXXX`)입니다.
 
 [Programmers](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/Programmers)는 코딩테스트 연습 란에서 제공하는 문제들을 레벨 별로 `Lvl_`(_는 숫자) 폴더에 저장합니다. 모든 Programmers 문제들은 레벨이 있습니다. 그리고 solution 함수만 완성하는 구조라서 실제 실행을 위해서는 입력부를 따로 구현해야 합니다.     

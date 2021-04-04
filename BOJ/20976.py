@@ -5,4 +5,5 @@ p = list(map(int, input().split()))
 p.sort()
 print(p[1])
 
-# 세 수 중 중간값 출력하기
+# 세 개의 숫자 중 중간값 구하기
+# 정렬 후 중간 뽑기
