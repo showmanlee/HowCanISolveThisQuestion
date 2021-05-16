@@ -29,7 +29,7 @@
 [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)의 Javascript 등 HackerRank 언어 학습용으로만 사용하는 언어도 있습니다. 물론 이 언어들이 문제 풀이 언어 다각화 연습용으로 사용될 수도 있을... 겁니다?
 
 ### 계정
-BOJ: [hoon12560](https://www.acmicpc.net/user/hoon12560)      
+BOJ: [hoon12560](https://www.acmicpc.net/user/hoon12560)([solved.ac](https://solved.ac/profile/hoon12560))      
 HackerRank: [hoon12560](https://www.hackerrank.com/hoon12560) 
 
 
