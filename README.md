@@ -3,7 +3,7 @@
 [Baekjoon Online Judge(BOJ)](https://www.acmicpc.net/), [Programmers](https://programmers.co.kr/learn/challenges), [HackerRank](https://www.hackerrank.com/dashboard), [SW Expert Academy(SWEA)](https://swexpertacademy.com/main/main.do), [Softeer](https://softeer.ai/index.do) 에서 푼 문제의 답안과 학습 기록을 저장하는 Repository입니다.
 
 ### 목표
-알고리즘 사이트에 가입해 문제를 풀기 시작한 것은 2017년 중순이지만, Repository를 만들고 본격적으로 시작한 것은 2020년 9월부터였습니다. 그러다보니 지금은 유별나게 뭐가 많지는 않습니다. 나중에 이 Repo에 코드들을 가득 채워 새 컴퓨터에서 clone할 때 오래 걸리도록 하는 게 제 목표입니다. 추후 다른 사이트로 확장할 계획도 있지만, 일단은 여기를 정복하는 것이 먼저라고 생각합니다.
+알고리즘 사이트에 가입해 문제를 풀기 시작한 것은 2017년 중순이지만, Repository를 만들고 본격적으로 시작한 것은 2020년 9월부터였습니다. 그러다보니 지금은 유별나게 뭐가 많지는 않습니다. 나중에 이 Repo에 코드들을 가득 채워 새 컴퓨터에서 clone할 때 오래 걸리도록 하는 게 제 목표입니다.
 
 어려운 문제에만 매달리기보다는 **쉬운 문제부터 차근차근 푸는 것**과 **가능하면 매일 한 문제라도 Commit하는 것**을 목표로 하고 있습니다. *하루에 하나*를 위해 의미 없는 문제만 풀거나 무작정 검색해버리는 것도 하지 않으려고 합니다. 그리고 예전에 푼 문제가 아닌 이상, 해당 문제로 배운 내용이나 핵심을 각주에 적어두고 있습니다.
 
