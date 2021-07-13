@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include <vector>
-#include <stack>
 #include <queue>
+#include <algorithm>
 using namespace std;
 typedef pair<int, int> pr;
+typedef pair<long long, int> prl;
 
 int main(void) {
 	cin.tie(NULL);
@@ -15,41 +16,50 @@ int main(void) {
 	int n, m;
 	cin >> n >> m;
 	vector<vector<pr>> board(n + 1);
-	vector<pr> dist(n + 1, { -1, -1 });
 	for (int i = 0; i < m; i++) {
 		int a, b, c;
 		cin >> a >> b >> c;
 		board[a].push_back({ b, c });
 	}
-	int start, dest;
-	cin >> start >> dest;
-	dist[start] = { 0, 0 };
-	priority_queue<pr> pq;
-	pq.push({ 0, start });
+	int s, d;
+	cin >> s >> d;
+	vector<long long> dist(n + 1, 100000000001);
+	vector<int> prev(n + 1, -1);
+	priority_queue<prl, vector<prl>, greater<prl>> pq;
+	dist[s] = 0;
+	pq.push({ dist[s], s });
 	while (!pq.empty()) {
-		int cost = -pq.top().first;
-		int pos = pq.top().second;
+		long long cost = pq.top().first;
+		int cur = pq.top().second;
 		pq.pop();
-		for (pr p : board[pos]) {
-			if (dist[p.first].first == -1 || dist[p.first].first > cost + p.second) {
-				dist[p.first].first = cost + p.second;
-				dist[p.first].second = pos;
-				pq.push({ -dist[p.first].first, p.first });
+		if (dist[cur] < cost)
+			continue;
+		for (pr p : board[cur]) {
+			int next = p.first;
+			long long ncost = p.second;
+			if (dist[next] > cost + ncost) {
+				dist[next] = cost + ncost;
+				prev[next] = cur;
+				pq.push({ dist[next], next });
 			}
 		}
 	}
-	stack<int> res;
-	res.push(dest);
-	while (dist[res.top()].second > 0)
-		res.push(dist[res.top()].second);
-	cout << dist[dest].first << '\n' << res.size() << '\n';
-	while (!res.empty()) {
-		cout << res.top() << ' ';
-		res.pop();
+	vector<int> res;
+	int p = d;
+	while (p != -1) {
+		res.push_back(p);
+		p = prev[p];
 	}
+	reverse(res.begin(), res.end());
+	cout << dist[d] << '\n';
+	cout << res.size() << '\n';
+	for (int i : res)
+		cout << i << ' ';
 	cout << '\n';
 }
 
-// 한 도시에서 다른 도시로 가는 최소 비용과 최소 경로의 길이, 그리고 그 경로 출력하기
-// 다익스트라에서 가중치 바꾸는 과정에서 그 최소 경로가 어디서 왔는지도 기록한 후, 목적지부터 역순으로 경로 출력(스택)
-// 결국 최단 경로 출력도 그렇게 어려운 건 아님 - 최소 경로가 어디서 왔는지만 알면 이어갈 수 있으니
+// 요금이 다른 m개의 버스 노선으로 이어진 n개의 도시에서 두 도시 사이를 이동하려 할 때, 최소 비용으로 갈 수 있는 경로는?
+
+// 최소비용 구하기 1에서 경로까지 구해야 하는 문제
+// 현재 노드 바로 전 노드를 기억하는 배열을 만들어, 각 노드의 최단 거리를 갱신하는 순간 해당 노드의 전 노드를 갱신해주기
+// 탐색이 끝나면 도착지부터 출발지까지 배열을 역으로 타서 결과 배열을 만든 뒤, 이를 뒤집어서 출력하기
