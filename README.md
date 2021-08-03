@@ -12,6 +12,8 @@
 ### 범례
 [BOJ](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/BOJ)는 드립성 및 txt로 풀 수 있는 문제(단순 출력 등) 포함, BOJ에서 푼 문제들을 저장합니다. 주력으로 풀고 있는 곳입니다.   
 파일명의 번호는 문제 번호(`https://www.acmicpc.net/problem/XXXX`)입니다.
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=hoon12560)](https://solved.ac/hoon12560)
 
 [Programmers](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/Programmers)는 코딩테스트 연습 란에서 제공하는 문제들을 레벨 별로 `Lvl_`(_는 숫자) 폴더에 저장합니다. 모든 Programmers 문제들은 레벨이 있습니다. 그리고 solution 함수만 완성하는 구조라서 실제 실행을 위해서는 입력부를 따로 구현해야 합니다.     
 파일명의 번호는 주소에 있는 문제 번호(`https://programmers.co.kr/learn/courses/30/lessons/XXXXX`)입니다.
