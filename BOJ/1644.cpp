@@ -19,24 +19,20 @@ int main(void) {
 				prime[j] = false;
 		}
 	}
-			
+
 	int n;
 	cin >> n;
 	int res = 0, sum = 0;
 	int l = 0, r = 0;
 	while (true) {
+		if (sum >= n)
+			sum -= pl[l++];
+		else if (r == pl.size())
+			break;
+		else
+			sum += pl[r++];
 		if (sum == n)
 			res++;
-		if (r == pl.size())
-			break;
-		if (sum >= n) {
-			sum -= pl[l];
-			l++;
-		}
-		else {
-			sum += pl[r];
-			r++;
-		}
 	}
 	cout << res << '\n';
 }
