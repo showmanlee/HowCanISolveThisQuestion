@@ -10,7 +10,7 @@
 실제 사이트에서 통과한(100점을 받은) 코드만 올리고 있습니다. **코드들에는 문제의 답(최적해는 아니더라도)이 있기 때문에 이 점 유념해주세요.**
 
 ### 범례
-[BOJ](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/BOJ)는 드립성 및 txt로 풀 수 있는 문제(단순 출력 등) 포함, BOJ에서 푼 문제들을 저장합니다. 주력으로 풀고 있는 곳입니다.   
+[BOJ](https://github.com/showmanlee/HowCanISolveThisQuestion/tree/master/BOJ)는 드립성 및 txt로 풀 수 있는 문제(단순 출력 등) 포함, BOJ에서 푼 문제들을 번호별로 1000단위로 구분하여 저장합니다. 주력으로 풀고 있는 곳입니다.   
 파일명의 번호는 문제 번호(`https://www.acmicpc.net/problem/XXXX`)입니다.
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=hoon12560)](https://solved.ac/hoon12560)
