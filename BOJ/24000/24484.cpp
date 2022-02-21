@@ -1,5 +1,5 @@
-// 알고리즘 수업 - 깊이 우선 탐색 5
-// https://www.acmicpc.net/problem/24483
+// 알고리즘 수업 - 깊이 우선 탐색 6
+// https://www.acmicpc.net/problem/24484
 
 #include <iostream>
 #include <vector>
@@ -36,7 +36,7 @@ int main(void) {
 		board[b].push_back(a);
 	}
 	for (int i = 1; i <= n; i++) {
-		sort(board[i].begin(), board[i].end());
+		sort(board[i].begin(), board[i].end(), greater<int>());
 		visit[i] = -1;
 	}
 	cnt = 0;
@@ -50,5 +50,5 @@ int main(void) {
 
 // 그래프를 깊이 우선 탐색할 때 각 노드의 방문 순서와 깊이의 곱 출력하기
 
-// 노드를 오름차순으로 2차원 vector의 각 vector를 정렬해두기
+// 노드를 내림차순으로 2차원 vector의 각 vector를 정렬해두기
 // 그 외에는 저 문제의 BFS 버전과 동일함
