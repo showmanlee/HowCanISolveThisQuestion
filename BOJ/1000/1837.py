@@ -5,8 +5,8 @@ p, k = map(int, input().split())
 flag = True
 for i in range(2, k):
     if p % i == 0:
-        print("BAD " + i)
-        flag = false
+        print("BAD", i)
+        flag = False
         break
 if flag:
     print("GOOD")
