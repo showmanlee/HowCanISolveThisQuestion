@@ -1,0 +1,17 @@
+'Pottery
+'https://www.acmicpc.net/problem/2377
+
+PRINT " _________"
+PRINT " \_     _/"
+PRINT "   \   /"
+PRINT "    | |"
+PRINT "   /   \"
+PRINT "  /     \"
+PRINT " |       |"
+PRINT "/---------\"
+PRINT "| \-/ \-/ |"
+PRINT "\---------/"
+PRINT " \_______/"
+
+'주어진 문자열을 freeBASIC으로 출력하기
+'기본적으로 BASIC과 비슷하긴 한데...?
