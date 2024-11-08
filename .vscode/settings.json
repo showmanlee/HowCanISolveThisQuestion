@@ -6,6 +6,7 @@
         "iostream": "cpp",
         "string": "cpp",
         "cmath": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "deque": "cpp"
     }
 }
